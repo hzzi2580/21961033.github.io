@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>유기견보호소</title>
+    <style>
+
+      *{
+        padding:0;
+        margin:0;
+        font-family : 'Noto Sans KR', sans-serif;
+      }
+    .clear{
+      clear:both;
+    }
+    .c1 {width: 8.33%; float: left; padding: 15px;}
+    .c2 {width: 16.66%; float: left; padding: 5px;}
+    .c3 {width: 25%; float: left; padding: 15px;}
+    .c4 {width: 33.33%; float: left; padding: 15px;}
+    .c5 {width: 41.66%; float: left; padding: 15px;}
+    .c6 {width: 50%; float: left; padding: 15px;}
+    .c7 {width: 58.33%; float: left; padding: 15px;}
+    .c8 {width: 66.66%; float: left; padding: 15px;}
+    .c9 {width: 75%; float: left; padding: 15px;}
+    .c10 {width: 83.33; float: left; padding: 15px;}
+    .c11 {width: 91.66%; float: left; padding: 15px;}
+    .c12 {width: 100%; float: left; padding: 15px;}
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  header{
+    width:100%;
+    height:50px;
+    border-BOTTOM: solid 1px rgb(222, 222, 222);
+    background-color: white;
+    position: fixed;
+    margin: 0 auto;
+    box-shadow: 0px 0px 13px 7px rgba(22, 22, 22, 0.07);
+  }
+  #logo{
+    float:left;
+margin-left: 300px;
+margin-right: 30px;
+  }
+  #top{
+    float:right;
+    margin-right:300px;
+    font-size: 14px;
+    color: rgba(50, 50, 50, 1);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 13px 36px;
+    font-weight: bold;
+  }
+
+nav {
+justify-content: center;
+margin-top: 5px;
+}
+
+ul, li {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#main-menu > li {
+float: left;
+}
+
+#main-menu > li > a {
+font-size: 14px;
+color: rgba(50, 50, 50, 1);
+text-align: center;
+text-decoration: none;
+letter-spacing: 0.05em;
+display: block;
+padding: 14px 36px;
+font-weight: bold;
+}
+
+#main-menu > li > a:hover {
+color:rgb(199, 199, 199);
+}
+
+#sub-menu {
+width: 110px;
+text-align: center;
+position: absolute;
+background: #fcfcfc;
+opacity: 0;
+visibility: hidden;
+transition: all 0.15s ease-in;
+}
+
+#sub-menu > li {
+padding: 16px 28px;
+border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu > li >  a {
+color: rgba(43, 43, 43, 1);
+text-decoration: none;
+font-size: 12px;
+}
+
+#main-menu > li:hover #sub-menu {
+opacity: 1;
+visibility: visible;
+}
+
+#sub-menu > li:hover {
+background: rgba(238, 238, 238, 1);
+}
+
+#sub-menu > li >  a:hover {
+text-decoration: none;
+}
+
+section{
+  width:100%;
+  height:400px;
+  border: solid 1px rgba(22, 22, 22, 0);
+}
+#b1{
+  background-image: url(img/main2.jpg);
+  background-size: 100%;
+  height: 670px;
+  /*background-image: url(img/d1.jpeg);*/
+}
+#pre{
+  float: left;
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-left: 310px;
+  line-height: 130%;
+  font-weight: bold;
+}
+#b1box{
+  margin-top: 330px;
+  margin-left: 310px;
+  padding-top: 15px;
+  width:300px;
+  height: 37px;
+  background-color: white;
+  color:#ffabb1;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0px 0px 15px 10px rgba(22, 22, 22, 0.04);
+  border-radius: 50px;
+}
+#b2{
+  background-color: white;
+  color: rgb(166, 166, 166);
+  font-size: 15px;
+  height: 650px;
+}
+#info{
+  text-align: center;
+  font-size: 17px;
+}
+#info img{
+  margin-top: 50px;
+}
+#b {
+  width: 300px;
+  height: 300px;
+  display: inline;
+  margin: 30px;
+  border: solid 1px red;
+}
+.box1{
+  margin: 0 0 0 270px;
+}
+.box{
+  border-radius: 30px;
+  width: 300px;
+  height: 270px;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  float: left;
+  padding-top:30px;
+  margin: 30px;
+  box-shadow: 0px 0px 15px 10px rgba(22, 22, 22, 0.09);
+  background-color: #ffabb1;
+}
+aside{
+  width:290px;
+  height:240px;
+  float:left;
+  margin-top:10px;
+  margin-left:29px;
+  border: solid 1px red;
+}
+footer{
+  width: 100%;
+  height: 270px;
+  background-color: rgb(34, 34, 34);
+}
+#footer {
+  background-color: #f3f3f3;
+  height: 430px;
+  color: rgb(227, 227, 227);
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+
+}
+#footer_logo {
+  float:  right;
+  margin: 50px 300px 0 0;
+}
+#address {
+    float: left;
+    font-size: 13px;
+    margin: 50px 0 0 300px;
+    color: white;
+  }
+  ul,li{
+    list-style:none;
+  }
+
+
+</style>
+  </head>
+  <body>
+    <header><a href='a1.html'>
+    <div id='logo'>
+    <a href="index.html"><img src='img/LOGO2.png' width='120'></div></a>
+    <nav role="navigation">
+      <ul id="main-menu">
+        <li><a href="a.html">보호소</a></li>
+        <li><a href="b.html">갤러리</a></li>
+        <li><a href="c.html">입양</a></li>
+        <li><a href="d.html">나눔</a>
+          <ul id="sub-menu">
+            <li><a href="d.html" aria-label="subemnu">봉사</a></li>
+            <li><a href="e1.html" aria-label="subemnu">후원</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  <div id='top'>
+    <a href='a10.html'>로그인</a>
+  </div>
+</header>
+
+<section id="b1">
+    <pre id="pre">평강공주는
+강아지와 고양이들의
+평화로운 공동 주거 공간입니다</pre>
+<a href="a.html"><div id="b1box">
+  <b>Learn more</b>
+</div></a>
+</section>
+
+<section id="b2">
+  <center>
+    <br><br><br>
+      <h1 style="color: #ffabb1; font-size:30px;">당신의 도움으로 큰 기적을</h1>
+      <br>평강공주는 항상 책임있는 펫 보호자들의 따뜻한 손길과 관심 기다리고 있습니다.<br> 동물들을 위해 당신의 사랑의 손길을 나눠주세요 !
+      <br><BR><BR>
+      <div class="box1">
+<div class="box">
+입양 <br><img src="img/입양아이콘.png" width="250" alt="">
+</div>
+<div class="box">
+봉사<br><br><img src="img/봉사아이콘.png" width="170" alt="">
+</div>
+<div class="box">
+후원<br><br><img src="img/후원아이콘.png" width="170" alt="">
+</div>
+</div>
+<div class='clear'></div>
+
+  </center>
+</section>
+
+<div class='clear'></div>
+<section id="footer">
+<br>Sponsor<br>
+<img src="img/spon.jpg" width="1000"alt="">
+</section>
+<footer>
+<div id="footer_box">
+  <div id="footer_logo">
+    <a href="https://www.instagram.com/explore/locations/2227174947516079/?hl=ko"><img src="img/insta.png" width="40" alt=""></a>
+    <a href="http://cafe.daum.net/_c21_/home?grpid=183LG"><img src="img/cafe.png" width="40" alt=""></a>
+    <a href="https://www.facebook.com/ansungcare/"><img src="img/face.png" width="40" alt=""></a>
+  </div>
+<ul id="address">
+<li>대표자 : 김자영</li>
+<li>안성평강공주보호소 경기 안성시 미양면 양변리 176-2</li>
+<li>사업자등록번호 : 125-82-80274</li>
+<li>TEL : 010-99864830 E-MAIL : hzzi2580@naver.com </li>
+<li>COPYRIGHT © 2019. Anseongcare. ALL RIGHTS RESERVED.</li>
+</ul>
+</div>
+</footer>
+  </body>
+</html>
